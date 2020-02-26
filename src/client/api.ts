@@ -1,13 +1,8 @@
 import axios from 'axios';
-
-const port = 8888;
-const host = 'localhost';
+import { APP_HOST, APP_PORT } from '../constants';
 
 export const axiosInstance = axios.create({
-  baseURL: `http://${host}:${port}`,
-  headers: {
-    'Content-Type': 'application/json',
-    xsrfHeaderName: 'X-CSRF-Token'
-  },
-  responseType: 'json'
-})
+  baseURL: `http://${APP_HOST}:${APP_PORT}`,
+  headers: { 'Content-Type': 'application/json' },
+  responseType: 'json',
+});

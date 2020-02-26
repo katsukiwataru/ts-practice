@@ -1,3 +1,4 @@
 export interface Health {
-  message: string
+  message: string;
+  count: number;
 }
