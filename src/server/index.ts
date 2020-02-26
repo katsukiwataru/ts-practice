@@ -1,4 +1,5 @@
 import Express from 'express';
+import { Health } from '../types/api';
 import cors from 'cors';
 
 const app = Express();
@@ -10,7 +11,7 @@ app.use(cors())
 //   res.send(data);
 // });
 app.get('/api/health', (req, res) => {
-  const data = { message: 'pong' };
+  const data: Health = { message: 'pong' };
   res.send({ message: data });
 });
 
