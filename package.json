@@ -28,7 +28,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-session": "^1.16.0",
-    "http-errors": "^1.7.2",
+    "http-errors": "^1.8.0",
     "redis-server": "^1.2.2"
   },
   "devDependencies": {
