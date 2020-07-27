@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/katsukiwataru/ts-practice#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.2",
     "body-parser": "^1.18.3",
     "connect-redis": "^3.4.1",
     "cookie-parser": "^1.4.4",
